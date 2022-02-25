@@ -23,18 +23,14 @@
           371.
         </p>
       </section>
-      <section><button onclick="run()">Run</button></section>
-      <section>
-        <div class="wrapper">
-          <div class="input-data">
-            <label>Input Number Here:</label>
-            <input type="text" class="input" />
-            <div id="output">
-              <!-- TODO: Add elements here if necessary -->
-            </div>
-          </div>
+      <div class="results">
+        Number:
+        <input type="text" name="number" maxlength="3" required id="number" />
+        <button type="button" onclick="run()">Submit</button>
+        <div class="resultText">
+          <p id="result"></p>
         </div>
-      </section>
+      </div>
     </article>
   </body>
 </html>
